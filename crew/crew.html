@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/crew/crew.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+    
+        <header class="header" id="header"> 
+
+          <div class="nav-logo animate__animated animate__backInLeft">
+            <img src="/assets/shared/logo.svg" alt="logo" />
+          </div>
+          
+
+          <nav class="nav" id="nav">
+            <ul class="nav-ul animate__animated animate__backInRight">
+              <li><a href="/home.html">00 <span>HOME</span></a></li>
+              <li><a href="/destination/destination.html">01 <span>DESTINATION</span></a></li>
+              <li><a href="/crew/crew.html">02 <span>CREW</span></a></li>
+              <li><a href="/technology/technology.html">03 <span>TECHNOLOGY</span></a></li>
+            </ul>
+          </nav>
+          <div class="mobile-nav hidden">
+            <img src="/assets/shared/icon-hamburger.svg" alt="hamburger" class="hamburger" id="hamburger"/>
+            <img src="/assets/shared/icon-close.svg" alt="hamburgerClose" class="hamburgerClose hidden" id="hamburgerClose"/>
+          </div>
+        </header>
+
+
+
+        <section class="crew" id="crew">
+          <div class="left-side animate__animated animate__backInLeft">
+            <h1 class="subheading"><span>02</span> Meet your crew</h1>
+            <div class="crew__content">
+              <h2 class="heading-1" id="crew__role">Commander</h2>
+              <h3 class="heading-2" id="crew__name">Douglas Hurley</h3>
+                <p class="para" id="crew__description">Douglas Gerald Hurley is an American engineer, 
+                  former MarineCorps pilot and former NASA astronaut.
+                  He launched into space for the third time as commander of Crew Dragon Demo-2.
+                </p>
+            </div>
+
+            <div class="crew-nav__row">
+              <div class="circles circle-1 active"></div>
+              <div class="circles circle-2"></div>
+              <div class="circles circle-3"></div>
+              <div class="circles circle-4"></div>
+            </div>
+          </div>
+
+          <div class="crew__imageholder animate__animated animate__backInRight">
+            <img src="/assets/crew/image-douglas-hurley.png" alt="" class="crew-image">
+          </div>
+
+
+        </section>
+
+
+  
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>

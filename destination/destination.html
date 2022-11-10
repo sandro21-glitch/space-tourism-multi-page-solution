@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/destination/destination.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+    
+        <header class="header" id="header">
+
+          <div class="nav-logo animate__animated animate__backInLeft">
+            <img src="/assets/shared/logo.svg" alt="logo" />
+          </div>
+          
+
+          <nav class="nav" id="nav">
+            <ul class="nav-ul animate__animated animate__backInRight">
+                <li><a href="/home.html">00 <span>HOME</span></a></li>
+                <li><a href="/destination/destination.html">01 <span>DESTINATION</span></a></li>
+                <li><a href="/crew/crew.html">02 <span>CREW</span></a></li>
+                <li><a href="/technology/technology.html">03 <span>TECHNOLOGY</span></a></li>
+            </ul>
+          </nav>
+          <div class="mobile-nav hidden">
+            <img src="/assets/shared/icon-hamburger.svg" alt="hamburger" class="hamburger" id="hamburger"/>
+            <img src="/assets/shared/icon-close.svg" alt="hamburgerClose" class="hamburgerClose hidden" id="hamburgerClose"/>
+          </div>
+        </header>
+
+
+        <section class="section-1" id="sectionOne">
+            <div class="left-section">
+                <h3 class="main-heading animate__animated animate__backInUp">
+                    <span>01</span>
+                    pick your destination
+                </h3>
+
+                <div class="moon rotate">
+                    <img class="animate__animated animate__zoomInDown" src="./destinations/image-moon.png" alt="moon" id="planetImg"/>
+                </div>
+
+
+            </div>
+
+            <div class="right-section">
+                <div class="planet-picker__row">
+                    <ul class="unlisted">
+                        <li id="moon" class="animate__animated animate__backInUp"><a href="#" class="a active"><span>MOON</span></a></li>
+                        <li id="mars" class="animate__animated animate__backInUp"><a href="#" class="a"><span>MARS</span></a></li>
+                        <li id="europa" class="animate__animated animate__backInUp"><a href="#" class="a"><span>EUROPA</span></a></li>
+                        <li id="titan" class="animate__animated animate__backInUp"><a href="#" class="a"><span>TITAN</span></a></li>
+                    </ul>
+                </div>
+
+                
+                <!-- For Moon -->
+                <div class="moon-part">
+                    <h1 class="planet-name animate__animated animate__backInUp">
+                        MOON
+                    </h1>
+                    <p class="planet-para animate__animated animate__backInUp">
+                        The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred
+                        degrees colder!). As a bonus, you get striking views of the Rings of Saturn.
+                    </p>
+                    
+                    <div class="planet-place">
+                        
+                        <div class="moon-distance__row">
+                            <h3 class="planet-distance__header animate__animated animate__backInUp">AVG. DISTANCE<br><br>
+                                <span class="distance">384,000 km</span>
+                            </h3>
+                        </div>
+                        
+                        <div class="planet-travel__row">
+                            <h3 class="planet-travel__header animate__animated animate__backInUp">est. travel time<br><br>
+                                <span class="years">3 days</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="line animate__animated animate__backInUp"></div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
